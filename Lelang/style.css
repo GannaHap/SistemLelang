@@ -1,0 +1,74 @@
+*   {
+    padding: 0;
+    margin: 0;
+}
+
+body    {
+    background-color: orange;
+}
+
+.card   {
+    width: 400px;
+    background-color: #fff;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .4);
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+/* Header */
+.card-header    {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+h2      {
+    width: 70px;
+    text-align: center;
+    padding: 2px;
+    border-bottom: 2px solid orange;
+}
+
+/* Body */
+.card-body  {
+    text-align: center;
+}
+
+.item   {
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 197, 89);
+    box-shadow: 0 0 3px 0 rgba(255, 197, 89, 1);
+    margin-bottom: 10px;
+}
+/* Footer */
+
+.card-footer    {
+    margin-top: 30px;
+}
+
+.bid    {
+    width: 75%;
+    padding: 5px;
+    border: 2px solid #111;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.deal   {
+    width: 60px;
+    padding: 5px;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+.deal:hover   {
+    transition-duration: .5s;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .4);
+}
